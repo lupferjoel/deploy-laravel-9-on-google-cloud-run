@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/benchmark', function () {
     return view('benchmark');
 });
+
+Route::get('/phpinfo', function () {
+    return phpinfo();
+});
